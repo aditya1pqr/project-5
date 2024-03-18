@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-items{
+    display: flex;
+    margin-top: 20px;
+    width: 400px;
+    justify-content: space-between;
+    font-size: 28px;
+   font-weight: lighter;
+}
+nav:first-child{
+    margin-left: 20px;
+}
+nav,img{
+    width: 100px
+}

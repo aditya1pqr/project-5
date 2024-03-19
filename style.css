@@ -6,18 +6,155 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+   
 }
 .nav-items{
     display: flex;
-    margin-top: 20px;
+    text-align: center;
     width: 400px;
-    justify-content: space-between;
-    font-size: 28px;
-   font-weight: lighter;
+    justify-content: space-around;
+    font-size: 30px;
+ 
 }
 nav:first-child{
-    margin-left: 20px;
+    margin-left: 80px;
 }
-nav,img{
-    width: 100px
+.active-item{
+   font-family: 'Fredoka One';
+   color: rgba(230, 152, 7, 0.834);
+}
+
+/*  nav bar end her */
+
+
+.intro-section{
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-section{
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+h3{
+    height: 60px;
+    width: 500px;
+    font-size: 50px;
+}
+h3 img{
+    height: 40px;
+}
+h1{
+    font-family: 'Fredoka One';
+    width: 800px;
+    font-size: 80px;
+}
+h5{
+    font-size: 30px;
+    margin-left: 80px;
+   
+}
+
+h5 img{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 6px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.text{
+    margin-top: 50px;
+    color: gray;
+    width: 600px;
+}
+.action-btn{
+padding: 10px 30px 10px 30px;
+font-size: 20px;
+border: none;
+background-color: #ffa500;
+color: #fff;
+font-weight: 400;
+border-radius: 30px;
+margin-right: 20px;
+
+
+}
+.action-btns{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* left setion end here  */
+.right-section{
+
+    position: relative;
+}
+.headphone-div{
+    width: 500px;
+    height: 500px;
+}
+.headphone-div :nth-child(3){
+   position:absolute;
+   top: 10px;
+   z-index: -1;
+   width: 450px;
+   height: 450px;
+   left: 90px;
+}
+.discount{
+    position:absolute;
+    top:260px;
+    width: 150px;
+  left: 15px;
+}
+.discount-content{
+    position:absolute;
+    top:290px;
+    font-size: 18px;
+    font-weight: 300;
+    left: 35px;
+    color: #fff;
+    
+}
+.discount-content h1{
+ font-size: 40px;
+ margin-left: 20px;
+ width: 400px;
+}
+.discount-content h4{
+ margin-left: 20px;
+ margin-top: 2px;
+}
+.dots{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 120px;
+ 
+}
+.yellow-dot{
+    background-color: yellow;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+.tomato-dot{
+    background-color: orangered;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 20px;
+}
+.black-dot{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.right-section button{
+    margin-left: 230px;
 }
